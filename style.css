@@ -73,8 +73,6 @@ button {
 
 rect:hover, circle:hover, text.circle:hover, text.rect:hover {
   cursor: pointer;
-  opacity:1;                                                                                    //Added this opacity 
-   transform: scale(0.2);                                                                       //Added this transform to see how it would react
 }
 
 .subtext {
