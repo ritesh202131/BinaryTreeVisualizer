@@ -41,7 +41,7 @@ function createBinarySearchTree() {
     input = inputText.value.trim().split(/\s+|\,+/g).map((num) => parseInt(num));
     input.sort((a, b) => a - b);
     document.querySelector('#visual-title').innerHTML = "Binary Search Tree";
-    document.querySelector('#instructions').innerHTML = "The input data sorted and arranged into a Binary Search Tree.";
+    document.querySelector('#instructions').innerHTML = "A binary search tree is a data structure that organizes elements in a hierarchical manner, allowing for efficient search, insertion, and deletion operations based on comparison with node values.";
     let tree = new Tree();
     tree.createBinarySearchTree(input)
   }
